@@ -48,7 +48,7 @@ def merge_sort(a):
         - Merge the result
     '''
     # Base case
-    if len(a) == 1:
+    if len(a) <= 1:
         return(a)
         
     # First, we split a
