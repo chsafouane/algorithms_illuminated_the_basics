@@ -3,7 +3,7 @@ def karatsuba(x, y):
     This implementation supposes that x and y have the
     same length and that it is pair.
     The inputs x and y should also be positive integers.
-    One can pad the numbers
+    One can pad the inputs to force to have the same length
     '''
     n = len(str(x))
     # The base case
